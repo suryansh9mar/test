@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Page</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="signup.php" method="POST">
+            <div class="form-group">
+                <!-- <label for="newUsername">Username:</label> -->
+                <input type="text" id="newUsername" name="newUsername" required placeholder="Username">
+            </div>
+            <div class="form-group">
+                <!-- <label for="newPassword">Password:</label> -->
+                <input type="password" id="newPassword" name="newPassword" required  placeholder="Password">
+            </div>
+            <div class="form-group">
+                <!-- <label for="confirmPassword">Confirm Password:</label> -->
+                <input type="password" id="confirmPassword" name="confirmPassword" required  placeholder="Confirm Password">
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+        <p>Already have an account? <a href="index.html">Login</a></p>
+    </div>
+</body>
+</html>
